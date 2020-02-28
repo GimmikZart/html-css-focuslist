@@ -1,1 +1,208 @@
 /* FOGLIO DI STILE */
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.centrati {
+  text-align: center;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* JUMBOTRON -----------------------------------------------------------------*/
+
+header {
+  background: linear-gradient(30deg, #225393, #002351);
+}
+
+#iconeilluminate img {
+  height: 50px;
+  width: auto;
+}
+
+#jumbotron .sinistra {
+  padding: 20px;
+}
+
+#jumbotron .sinistra>img {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+#jumbotron .sinistra>p {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #7393c1;
+  font-weight: lighter;
+  font-size: 24px;
+}
+
+#jumbotron h1 {
+  font-size: 36px;
+  color: white;
+  font-weight: lighter;
+}
+
+#jumbotron {
+  /* height: 50px; */
+  padding-top: 50px;
+}
+
+#iconeilluminate {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+
+}
+
+#iconeilluminate p {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  color: white;
+  padding-right: 30px;
+}
+
+#jumbotron .destra img {
+  padding-left: 30px;
+
+}
+
+/* SEZIONE UNO: PLAN YOUT PERFECT DAY ---------------------------------- */
+
+#sezioneplan h2 {
+  color: black;
+  font-size: 30px;
+  padding-top: 100px;
+  margin-bottom: 40px;
+}
+
+#sezioneplan img {
+  width: 344px;
+  height: auto;
+  display: block;
+  margin:0px auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#sezioneplan .sinistra {
+  text-align: right;
+  padding-top: 133px;
+  padding-left: 70px;
+}
+
+#sezioneplan .destra {
+  padding-top: 173px;
+  padding-right: 70px;
+}
+
+#sezioneplan .sinistra p,
+#sezioneplan .destra p {
+  margin-top: 16px;
+  }
+
+#sezioneplan h3 {
+  color: #274daf;
+  font-size: 18px;
+}
+
+#sezioneplan p {
+  color: #9ba6b7;
+  font-size: 16px;
+}
+
+
+/* SEZIONE DUE: FOCUS WITH THE POMODORO----------------------- */
+
+#pomodoro {
+  background: #2a4b77;
+  padding-bottom: 50px;
+}
+
+#pomodoro img {
+  display:block;
+  margin:0px auto;
+  text-align: center;
+  margin-top: 60px;
+}
+
+#pomodoro p {
+  font-size: 18px;
+  color: #7393c1;
+  font-weight: 300;
+}
+
+#pomodoro h2 {
+  color: white;
+  font-weight: 400;
+  font-size: 36px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+#pomodoro h3 {
+  color: white;
+  font-weight: 300;
+  font-size: 24px;
+  margin: 30px 0;
+}
+
+
+/* SEZIONE TRE: TRACK TIME  */
+
+
+#tracktime img {
+  display:block;
+  margin:0px auto;
+  text-align: center;
+}
+
+#tracktime h2 {
+  font-weight: 400;
+  font-size: 36px;
+  margin: 50px 0 30px 0;
+}
+
+#tracktime p {
+  color: #9ba6b7;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* debug */
+div {
+  /* height: 300px; */
+  /* background-color: blue; */
+  /* border: 1px solid black; */
+}
+
+.container, header {
+  margin-bottom: 15px;
+}
+
+/* fine debug */
