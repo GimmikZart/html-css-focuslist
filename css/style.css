@@ -143,7 +143,7 @@ header {
 #pomodoro p {
   font-size: 18px;
   color: #7393c1;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 #pomodoro h2 {
@@ -156,9 +156,13 @@ header {
 
 #pomodoro h3 {
   color: white;
-  font-weight: 300;
+  font-weight: 200;
   font-size: 24px;
   margin: 30px 0;
+}
+
+#pomodoro .box {
+  padding: 0 15px;
 }
 
 
@@ -179,12 +183,36 @@ header {
 
 #tracktime p {
   color: #9ba6b7;
-  font-weight: lighter;
+  font-weight: 200;
   font-size: 18px;
 }
 
+/* FOOTER ------------------------------------------- */
 
+footer {
+  background: #113462;
 
+}
+
+footer h5 {
+  padding-top: 50px;
+  margin-bottom: 15px;
+  color: #7393c1;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+footer [class*="col-"] {
+  margin-bottom: 50px;
+}
+
+footer a {
+  display: block;
+  padding-top: 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
 
 
 
