@@ -25,7 +25,7 @@
 /* JUMBOTRON -----------------------------------------------------------------*/
 
 header {
-  background: linear-gradient(30deg, #225393, #002351);
+
 }
 
 #iconeilluminate img {
@@ -59,6 +59,7 @@ header {
 #jumbotron {
   /* height: 50px; */
   padding-top: 50px;
+  background: linear-gradient(30deg, #225393, #002351);
 }
 
 #iconeilluminate {
@@ -73,7 +74,7 @@ header {
   vertical-align: middle;
   margin-left: 10px;
   color: white;
-  padding-right: 30px;
+  margin-right: 30px;
 }
 
 #jumbotron .destra img {
@@ -128,7 +129,7 @@ header {
 
 /* SEZIONE DUE: FOCUS WITH THE POMODORO----------------------- */
 
-#pomodoro {
+#pomodoro .container {
   background: #2a4b77;
   padding-bottom: 50px;
 }
@@ -189,7 +190,7 @@ header {
 
 /* FOOTER ------------------------------------------- */
 
-footer {
+footer .container {
   background: #113462;
 
 }
@@ -234,3 +235,56 @@ div {
 }
 
 /* fine debug */
+
+
+
+/* MEDIA QUERY */
+
+@media screen and (min-width: 769px) and (max-width:992px) {
+
+  /* jumbotron */
+
+    #jumbotron .destra {
+      display: none;
+    }
+
+    #jumbotron h1{
+      text-align: center;
+    }
+
+    #jumbotron p {
+      text-align: center;
+    }
+
+    #jumbotron #logo {
+      width: 200px;
+    }
+
+
+  /* sezione uno */
+    #sezioneplan .sinistra {
+      padding-top: 100px;
+    }
+
+    #sezioneplan .centrati {
+      margin: 0 200px;
+    }
+
+    #tracktime .centrati {
+      margin: 0 200px;
+      margin-bottom: 50px;
+    }
+
+
+
+
+
+    footer .container {
+      padding: 50px;
+    }
+
+
+
+
+
+}
