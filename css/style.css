@@ -25,7 +25,7 @@
 /* JUMBOTRON -----------------------------------------------------------------*/
 
 header {
-
+  background: linear-gradient(30deg, #225393, #002351);
 }
 
 #iconeilluminate img {
@@ -59,7 +59,7 @@ header {
 #jumbotron {
   /* height: 50px; */
   padding-top: 50px;
-  background: linear-gradient(30deg, #225393, #002351);
+
 }
 
 #iconeilluminate {
@@ -244,6 +244,14 @@ div {
 
   /* jumbotron */
 
+    #jumbotron {
+      background: linear-gradient(30deg, #225393, #002351);
+    }
+
+    header {
+      background: none;
+    }
+
     #jumbotron .destra {
       display: none;
     }
@@ -283,8 +291,95 @@ div {
       padding: 50px;
     }
 
+}
+
+/* MEDIA QUERY SMALL DEVICE */
 
 
+@media screen and (max-width: 768px) {
 
+  #jumbotron {
+    background: linear-gradient(30deg, #225393, #002351);
+  }
+
+  header {
+    background: none;
+  }
+
+  #jumbotron .destra {
+    display: none;
+  }
+
+  #logo {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #jumbotron h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  #jumbotron .sinistra p {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  #iconeilluminate img {
+    height: 150px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #iconeilluminate p {
+    font-size: 25px;
+  }
+
+  #sezioneplan .sinistra , #sezioneplan .destra {
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #sezioneplan h2,
+  #pomodoro h2,
+  #tracktime h2 {
+    font-size: 80px;
+  }
+
+  #sezioneplan h3,
+  #pomodoro h3,
+  #tracktime h3 {
+    font-size: 50px;
+  }
+
+  #sezioneplan p,
+  #pomodoro p,
+  #tracktime p {
+    margin: 0 50px;
+    font-size: 40px;
+  }
+
+
+  #pomodoro img {
+    width: 500px;
+  }
+
+
+  #tracktime img,
+  #sezioneplan img {
+    width: 100%;
+  }
+
+  footer h5 {
+    font-size: 50px;
+  }
+  footer a {
+    font-size: 50px;
+  }
 
 }
